@@ -1,1 +1,6 @@
-vendor
+/vendor/
+
+/var/cache/
+/var/logs/
+/var/sessions/
+/app/test/cache/
