@@ -15,8 +15,6 @@ class MyModuleConfigurationFormType extends TranslatorAwareType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
 
-        $currentLanguage = Configuration::get('MYMODULE_LANGUAGE', 'en');
-
 
         $builder
             ->add('config_text', TextType::class, [
@@ -38,7 +36,6 @@ class MyModuleConfigurationFormType extends TranslatorAwareType
                 ],
                 'expanded' => true,
                 'multiple' => false,
-                'data' => $currentLanguage,
             ])
 
             ->add('theme', ChoiceType::class, [

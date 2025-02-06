@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 namespace PrestaShop\Module\MyModule\Form;
 
@@ -50,6 +49,7 @@ final class MyModuleConfigurationTextDataConfiguration implements DataConfigurat
             }
             $this->configuration->set(static::CONFIG_MENU, (bool) $configuration['show_in_menu']);
             $this->configuration->set(static::CONFIG_LANGUAGE, $configuration['language']);
+
         }
 
         return $errors;

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="admin072diftbpptadtgmjez" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+  <file original="admin072diftbpptadtgmjez" source-language="en-US" target-language="fr-FR" datatype="plaintext">
     <body>
       <trans-unit id="5c1d9b8006e898984ef9ce072479302c">
         <source>My Home Module</source>
-        <target>MMon module d'accueil</target>
+        <target>Mon module d'accueil</target>
         <note>Line: </note>
       </trans-unit>
       <trans-unit id="518edf9a9169440ccee1acafbbea37b3">

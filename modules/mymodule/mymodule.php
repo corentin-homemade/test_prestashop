@@ -1,7 +1,5 @@
 <?php
-if (!defined('_PS_VERSION_')) {
-    exit;
-}
+
 class MyModule extends Module
 {
 
@@ -30,12 +28,6 @@ class MyModule extends Module
         }
 
         $this->ps_versions_compliancy = ['min' => '8.0.0', 'max' => '8.99.99'];
-    }
-
-    public function getContent()
-    {
-        $route = $this->get('router')->generate('my_module_configuration');
-        Tools::redirectAdmin($route);
     }
 
 
@@ -67,6 +59,15 @@ class MyModule extends Module
     }
 
 
+
+    public function getContent()
+    {
+        $language = Tools::getValue('lang', Configuration::get('MYMODULE_LANGUAGE'));
+        $route = $this->get('router')->generate('my_module_configuration', ['lang' => $language]);
+        Tools::redirectAdmin($route);
+    }
+
+
     private function installTab()
     {
         $tab = new Tab();
@@ -75,7 +76,7 @@ class MyModule extends Module
         $tab->module = $this->name;
         $tab->route_name = 'my_module_index';
         $tab->active = true;
-        $tab->name = 'Mon Module';
+        $tab->name = 'My module';
 
         return $tab->add();
     }
