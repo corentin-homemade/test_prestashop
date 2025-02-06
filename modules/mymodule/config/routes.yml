@@ -1,0 +1,16 @@
+my_module_configuration:
+  path: /mymodule/configuration
+  methods: [GET, POST]
+  defaults:
+    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleConfigurationController::indexActionForm'
+  requirements:
+    _locale: en|fr|es
+
+
+my_module_index:
+  path: /mymodule/home
+  methods: [GET]
+  defaults:
+    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::index'
+  requirements:
+    _locale: en|fr|es

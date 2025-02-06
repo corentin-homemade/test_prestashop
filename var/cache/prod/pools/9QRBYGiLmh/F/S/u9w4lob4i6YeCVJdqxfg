@@ -1,0 +1,3 @@
+<?php //PrestaShop%255CModule%255CMyModule%255CController%255CAdmin%255CMyModuleConfigurationController%2523indexActionForm
+
+return [PHP_INT_MAX, []];
