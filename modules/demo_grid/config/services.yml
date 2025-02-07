@@ -5,7 +5,7 @@ services:
     parent: 'prestashop.core.grid.definition.factory.abstract_grid_definition'
 
   demo_grid.grid.query_builder.product:
-    class: 'Module\DemoGrid\Grid\Query\ProductQueryBuilder'
+    class: 'PrestaShop\Module\DemoGrid\Grid\Query\ProductQueryBuilder'
     parent: 'prestashop.core.grid.abstract_query_builder'
     public: true
     arguments:

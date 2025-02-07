@@ -29,16 +29,17 @@ services:
     - 'MyModuleConfiguration'
 
   mymodule.grid.filters.product:
-    class: 'Module\MyModule\Grid\Filters\ProductFilters'
+    class: 'PrestaShop\Module\MyModule\Grid\Filters\ProductFilters'
 
 
+  # Adaptation des services pour le grid
   mymodule.grid.definition.factory.products:
-    class: 'Module\MyModule\Grid\Definition\Factory\ProductGridDefinitionFactory'
+    class: 'PrestaShop\Module\MyModule\Grid\Definition\Factory\ProductGridDefinitionFactory'
     parent: 'prestashop.core.grid.definition.factory.abstract_grid_definition'
     public: true
 
   mymodule.grid.query_builder.product:
-    class: 'Module\MyModule\Grid\Query\ProductQueryBuilder'
+    class: 'PrestaShop\Module\MyModule\Grid\Query\ProductQueryBuilder'
     arguments:
     - '@prestashop.core.query.doctrine_search_criteria_applicator'
     - "@=service('prestashop.adapter.legacy.context').getContext().language.id"
@@ -47,6 +48,7 @@ services:
     - "@=service('prestashop.adapter.legacy.context').getContext().shop.getGroup().share_stock"
     - '@prestashop.core.grid.query.filter.doctrine_filter_applicator'
     - '@prestashop.adapter.legacy.configuration'
+
 
   mymodule.grid.data_provider.products:
     class: '%prestashop.core.grid.data.factory.doctrine_grid_data_factory%'

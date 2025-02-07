@@ -2,7 +2,6 @@
 
 namespace PrestaShop\Module\MyModule\Form;
 
-use Configuration;
 use PrestaShopBundle\Form\Admin\Type\TranslatorAwareType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;

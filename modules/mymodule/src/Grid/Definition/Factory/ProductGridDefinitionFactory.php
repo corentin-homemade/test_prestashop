@@ -1,7 +1,8 @@
 <?php
 declare(strict_types=1);
 
-namespace Module\MyModule\Grid\Definition\Factory;
+namespace PrestaShop\Module\MyModule\Grid\Definition\Factory;
+
 
 use PrestaShop\PrestaShop\Core\Grid\Column\ColumnCollection;
 use PrestaShop\PrestaShop\Core\Grid\Column\Type\Common\ActionColumn;

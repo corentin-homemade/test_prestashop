@@ -11,14 +11,14 @@ my_module_index:
   path: /mymodule/home
   methods:  [GET]
   defaults:
-    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::index'
+    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::indexAction'
   requirements:
     _locale: en|fr|es
 
 
 
 my_module_search:
-  path: /mymodule/home
+  path: /mymodule/home/search
   methods:  [POST]
   defaults:
-    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\IndexController::searchAction'
+    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::searchAction'

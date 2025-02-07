@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Module\MyModule\Grid\Filters;
+namespace PrestaShop\Module\MyModule\Grid\Filters;
 
-use Module\MyModule\Grid\Definition\Factory\ProductGridDefinitionFactory;
+use PrestaShop\Module\MyModule\Grid\Definition\Factory\ProductGridDefinitionFactory;
 use PrestaShop\PrestaShop\Core\Search\Filters;
 
 class ProductFilters extends Filters

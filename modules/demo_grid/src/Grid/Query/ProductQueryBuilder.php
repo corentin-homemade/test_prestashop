@@ -20,7 +20,7 @@
 
 declare(strict_types=1);
 
-namespace Module\DemoGrid\Grid\Query;
+namespace PrestaShop\Module\DemoGrid\Grid\Query;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Query\QueryBuilder;
