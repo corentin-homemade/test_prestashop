@@ -9,8 +9,16 @@ my_module_configuration:
 
 my_module_index:
   path: /mymodule/home
-  methods: [GET]
+  methods:  [GET]
   defaults:
     _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::index'
   requirements:
     _locale: en|fr|es
+
+
+
+my_module_search:
+  path: /mymodule/home
+  methods:  [POST]
+  defaults:
+    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\IndexController::searchAction'

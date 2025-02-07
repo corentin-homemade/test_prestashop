@@ -33,20 +33,71 @@ class Demo_Grid extends Module
     public function __construct()
     {
         $this->name = 'demo_grid';
+        $this->tab = 'front_office_features';
         $this->author = 'PrestaShop';
         $this->version = '1.0.0';
         $this->ps_versions_compliancy = ['min' => '1.7.7', 'max' => _PS_VERSION_];
+        $this->bootstrap = true;
+
 
         parent::__construct();
 
         $this->displayName = $this->l('Demo grid');
         $this->description = $this->l('Demonstration of Grid in PrestaShop');
+
+        $this->confirmUninstall = $this->trans('Are you sure you want to uninstall?', [], 'Modules.Demo_grid.Admin');
     }
+
+    public function install()
+    {
+        if (Shop::isFeatureActive()) {
+            Shop::setContext(Shop::CONTEXT_ALL);
+        }
+
+
+        $tab = new Tab();
+        $tab->class_name = 'IndexController';
+        $tab->id_parent = (int) Tab::getIdFromClassName('IMPROVE');
+        $tab->module = $this->name;
+        $tab->route_name = 'demo_grid_index';
+        $tab->active = true;
+        $languages = Language::getLanguages();
+        $tab->name = [];
+        foreach ($languages as $lang) {
+            $tab->name[$lang['id_lang']] = $this->trans('Demo Grid', [], 'Modules.Demo_grid.Admin');
+        }
+
+
+        return (
+            $tab->add()
+            && parent::install()
+
+        );
+    }
+
+
+    public function uninstall()
+    {
+
+        $id_tab = (int) Tab::getIdFromClassName('IndexController');
+        $tab = new Tab($id_tab);
+
+        return (
+            $tab->delete()
+            && parent::uninstall()
+
+        );
+    }
+
+
 
     public function getContent()
     {
-        Tools::redirectAdmin(
-            $this->context->link->getAdminLink('AdminDemoGrid')
-        );
+        $route = $this->get('router')->generate('demo_grid_index');
+        Tools::redirectAdmin($route);
     }
+
+
+
+
 }
