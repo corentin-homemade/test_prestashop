@@ -24,19 +24,15 @@ class MyModuleConfigurationController extends FrameworkBundleAdminController
                 $module->updateTabVisibility();
             }
 
-
-
-            $language = $form->getData()['language'];
-            $languageId = Language::getIdByIso($language);
-            $context = $this->getContext();
-            $context->language = new Language($languageId);
-
-
-
+            $languageIso = $form->getData()['language'];
+            $languageId = Language::getIdByIso($languageIso);
+            $employee = $this->get('prestashop.adapter.legacy.context')->getContext()->employee;
+            $employee->id_lang = $languageId;
+            $employee->update();
 
             if (empty($errors)) {
                 $this->addFlash('success', $this->trans('Edit successful.', 'Modules.Mymodule.Admin'));
-                return $this->redirectToRoute('my_module_index' ,['lang' => $language]);
+                return $this->redirectToRoute('my_module_index');
             }
             $this->flashErrors($errors);
         }

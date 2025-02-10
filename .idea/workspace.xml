@@ -2,17 +2,395 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dc1da71-468e-47dd-97ef-559c6931c65f" name="Default Changelist" comment="Traduction mymodule">
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/blockreassurance/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/blockreassurance/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/blockwishlist/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/blockwishlist/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/src/http_build_url.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/src/http_build_url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/tests/HttpBuildUrlTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/tests/HttpBuildUrlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/tests/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/http_build_url/tests/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/vendor/jakeasmith/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/views/templates/widget/contactform.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/views/templates/widget/contactform.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/contactform/views/templates/widget/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/contactform/views/templates/widget/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/dashactivity/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/dashactivity/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/dashgoals/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/dashgoals/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/dashproducts/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/dashproducts/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/dashtrends/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/dashtrends/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/config/routes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/config/routes.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/demo_grid/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/demo_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/demo_grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/demo_grid_screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/demo_grid_screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/js/.webpack/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/js/.webpack/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/js/.webpack/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/js/.webpack/dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/js/.webpack/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/js/.webpack/prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/js/demo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/js/demo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/js/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/js/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/js/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/js/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/src/Controller/Admin/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/src/Controller/Admin/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/src/Grid/Filters/ProductFilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/src/Grid/Filters/ProductFilters.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/demo_grid/src/Grid/Query/ProductQueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/src/Grid/Query/ProductQueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/views/demo_grid.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/views/demo_grid.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/demo_grid/views/templates/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/demo_grid/views/templates/admin/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gamification/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/gamification/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gamification/data/data_EN_EUR_FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/gamification/data/data_EN_EUR_FR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/graphnvd3/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/graphnvd3/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gridhtml/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/gridhtml/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gsitemap/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/gsitemap/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/klaviyopsautomation/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/klaviyopsautomation/config_fr.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mymodule/config/routes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/config/routes.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mymodule/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mymodule/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mymodule/js/demo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/js/demo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mymodule/mymodule.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/mymodule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleConfigurationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleConfigurationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationFormType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mymodule/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/mymodule/src/Grid/Filters/ProductFilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/src/Grid/Filters/ProductFilters.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mymodule/src/Grid/Query/ProductQueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/src/Grid/Query/ProductQueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMyModule.en-US.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMyModule.en-US.xlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMymoduleAdmin.en-US.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMymoduleAdmin.en-US.xlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymodule.fr-FR.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymodule.fr-FR.xlf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mymodule/views/templates/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mymodule/views/templates/admin/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/pagesnotfound/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/pagesnotfound/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/productcomments/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/productcomments/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_accounts/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_accounts/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_banner/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_banner/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_bestsellers/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_bestsellers/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_brandlist/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_brandlist/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_cashondelivery/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_cashondelivery/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categoryproducts/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categoryproducts/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/tests/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/tests/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan.sh" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan-1.7.7.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan-1.7.7.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan-1.7.8.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan-1.7.8.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan-latest.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan-latest.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/tests/phpstan/phpstan.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/views/templates/hook/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/views/templates/hook/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_categorytree/views/templates/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_categorytree/views/templates/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_checkout/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_checkout/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_checkpayment/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_checkpayment/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan.sh" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.2.5.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.2.5.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.3.4.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.3.4.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.4.4.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.4.4.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.5.1.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.5.1.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.6.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.6.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.7.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.7.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.8.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-1.7.8.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-latest.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan-latest.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/tests/phpstan/phpstan.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_contactinfo/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_crossselling/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_crossselling/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_currencyselector/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_currencyselector/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_customeraccountlinks/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_customeraccountlinks/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_customersignin/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_customersignin/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_customtext/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_customtext/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_dataprivacy/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_dataprivacy/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_distributionapiclient/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_distributionapiclient/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_edition_basic/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_edition_basic/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/js/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/js/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan.sh" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-1.7.7.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-1.7.7.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-1.7.8.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-1.7.8.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-8.0.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-8.0.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-latest.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan-latest.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/tests/php/phpstan/phpstan.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailalerts/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_emailsubscription/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_emailsubscription/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_eventbus/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_eventbus/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facebook/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facebook/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/controllers/front/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/controllers/front/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/controllers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/src/Form/Attribute/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/src/Form/Attribute/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/src/Form/AttributeGroup/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/src/Form/AttributeGroup/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/number-formatter.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/number-formatter.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/number-symbol.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/number-symbol.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/specifications/number.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/specifications/number.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/specifications/price.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/cldr/specifications/price.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/front/urlparser.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/js/front/urlparser.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Adapter/MySQLTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Adapter/MySQLTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Filters/BlockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Filters/BlockTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Filters/ConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Filters/ConverterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/HookDispatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/HookDispatcherTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Interface/FacetsRendererInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Interface/FacetsRendererInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Interface/ProductSearchProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Interface/ProductSearchProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Interface/WidgetInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Interface/WidgetInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Mock/Facet.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Mock/Facet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Mock/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Mock/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/MockProxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/MockProxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Product/SearchProviderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Product/SearchProviderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Product/SearchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/Product/SearchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/URLSerializerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/FacetedSearch/URLSerializerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/files/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/files/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan.sh" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-1.7.6.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-1.7.6.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-1.7.7.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-1.7.7.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-1.7.8.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-1.7.8.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-latest.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan-latest.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpstan/phpstan.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/tests/php/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/AbstractLazyCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/AbstractLazyCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Expression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ExpressionVisitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ExpressionVisitor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Value.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Value.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/Collections/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/Common/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/Doctrine/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/collections/lib/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/doctrine/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/back.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/back.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/back.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/back.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/front.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/front.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/front.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/front.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_facetedsearch/views/dist/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_faviconnotificationbo/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_faviconnotificationbo/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_featuredproducts/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_featuredproducts/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_googleanalytics/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_googleanalytics/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/controllers/admin/AdminConfigureSlidesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/controllers/admin/AdminConfigureSlidesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/controllers/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/controllers/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/controllers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan.sh" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.4.4.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.4.4.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.5.1.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.5.1.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.6.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.6.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.7.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.7.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.8.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-1.7.8.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-latest.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan-latest.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan.neon" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/tests/phpstan/phpstan.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/upgrade/upgrade-3.2.0.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/upgrade/upgrade-3.2.0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_imageslider/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_imageslider/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_languageselector/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_languageselector/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_linklist/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_linklist/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_mainmenu/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_mainmenu/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_mbo/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_mbo/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_metrics/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_metrics/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_newproducts/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_newproducts/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_searchbar/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_searchbar/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_sharebuttons/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_sharebuttons/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_shoppingcart/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_shoppingcart/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_socialfollow/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_socialfollow/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_specials/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_specials/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_supplierlist/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_supplierlist/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/views/img/controllers/configuration/wireframe/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/views/img/controllers/configuration/wireframe/category/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/views/img/controllers/configuration/wireframe/commons/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/views/img/controllers/configuration/wireframe/commons/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_themecusto/views/img/controllers/configuration/wireframe/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_themecusto/views/img/controllers/configuration/wireframe/product/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_viewedproduct/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_viewedproduct/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ps_wirepayment/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_wirepayment/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/psgdpr/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psgdpr/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/psshipping/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psshipping/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/psxdesign/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psxdesign/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/psxmarketingwithgoogle/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psxmarketingwithgoogle/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsbestcategories/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsbestcategories/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsbestcustomers/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsbestcustomers/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsbestmanufacturers/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsbestmanufacturers/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsbestproducts/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsbestproducts/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsbestsuppliers/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsbestsuppliers/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsbestvouchers/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsbestvouchers/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statscarrier/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statscarrier/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statscatalog/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statscatalog/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statscheckup/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statscheckup/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/upgrade/upgrade-2.1.2.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/upgrade/upgrade-2.1.2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsdata/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsdata/vendor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsforecast/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsforecast/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsnewsletter/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsnewsletter/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statspersonalinfos/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statspersonalinfos/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsproduct/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsproduct/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsregistrations/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsregistrations/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statssales/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statssales/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statssearch/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statssearch/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/statsstock/config_fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/statsstock/config_fr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/position.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/position.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +420,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="700">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#90#174#0#PHP" expanded="true" />
               </folding>
@@ -51,65 +429,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/demo_grid/src/Grid/Query/ProductQueryBuilder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="34" column="24" selection-end-line="258" />
-              <folding>
-                <element signature="e#909#938#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Filters/ProductFilters.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-              <folding>
-                <element signature="e#84#168#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/mymodule/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="40" selection-start-line="40" selection-end-line="49" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/demo_grid/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3249">
-              <caret line="171" column="49" selection-start-line="171" selection-start-column="49" selection-end-line="171" selection-end-column="49" />
-              <folding>
-                <element signature="e#96#156#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Query/ProductQueryBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="814">
+              <caret line="268" column="5" selection-start-line="122" selection-start-column="3" selection-end-line="268" selection-end-column="5" />
               <folding>
                 <element signature="e#83#112#0#PHP" expanded="true" />
               </folding>
@@ -122,6 +446,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>demo_grid</find>
+      <find>Produc</find>
+      <find>draggable</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/modules/mymodule</dir>
@@ -133,13 +459,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/prestashop/autoload/src/Autoloader.php" />
-        <option value="$PROJECT_DIR$/modules/fbsample_legacyvsmodern/config/services.yml" />
-        <option value="$PROJECT_DIR$/modules/fbsample_legacyvsmodern/src/Controller/AdminDocumentTypeController.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/modules/mymodule/config.xml" />
-        <option value="$PROJECT_DIR$/modules/mymodule/src/Form/DemoConfigurationTextDataConfiguration.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/src/Form/.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/composer.json" />
         <option value="$PROJECT_DIR$/modules/mymodule/src/Controller/DemoConfigurationController.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/src/Form/DemoConfigurationTextFormDataProvider.php" />
@@ -160,30 +479,37 @@
         <option value="$PROJECT_DIR$/modules/mymodule/views/templates/admin/form.html.twig" />
         <option value="$PROJECT_DIR$/classes/module/Module.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/translations/en-En/ModulesMyModule.en-EN.xlf" />
-        <option value="$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymodule.fr-FR.xlf" />
         <option value="$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymoduleAdmin.fr-FR.xlf" />
         <option value="$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationTextDataConfiguration.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationTextFormDataProvider.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMyModule.en-US.xlf" />
         <option value="$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMymoduleAdmin.en-US.xlf" />
-        <option value="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleConfigurationController.php" />
         <option value="$PROJECT_DIR$/modules/demo_grid/demo_grid.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/mymodule.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/src/Controller/Grid/Definition/Factory/ProductGridDefinitionFactory.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/src/Controller/Grid/Filters/ProductFilters.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/config/parameters.yaml" />
         <option value="$PROJECT_DIR$/app/config/parameters.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/config/routes.yml" />
-        <option value="$PROJECT_DIR$/modules/mymodule/views/templates/admin/index.html.twig" />
         <option value="$PROJECT_DIR$/modules/demo_grid/src/Controller/Admin/IndexController.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/src/Grid/Query/ProductQueryBuilder.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationFormType.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/src/Grid/Filters/ProductFilters.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleController.php" />
-        <option value="$PROJECT_DIR$/modules/mymodule/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php" />
         <option value="$PROJECT_DIR$/modules/demo_grid/config/services.yml" />
+        <option value="$PROJECT_DIR$/modules/demo_grid/src/Grid/Filters/ProductFilters.php" />
         <option value="$PROJECT_DIR$/modules/demo_grid/src/Grid/Query/ProductQueryBuilder.php" />
+        <option value="$PROJECT_DIR$/modules/demo_grid/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php" />
+        <option value="$PROJECT_DIR$/modules/mymodule/src/Grid/Filters/ProductFilters.php" />
+        <option value="$PROJECT_DIR$/modules/mymodule/config/routes.yml" />
+        <option value="$PROJECT_DIR$/modules/mymodule/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php" />
+        <option value="$PROJECT_DIR$/modules/mymodule/js/.webpack/dev.js" />
+        <option value="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleController.php" />
+        <option value="$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymodule.fr-FR.xlf" />
+        <option value="$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMyModule.en-US.xlf" />
+        <option value="$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationFormType.php" />
+        <option value="$PROJECT_DIR$/modules/mymodule/config/config.yml" />
+        <option value="$PROJECT_DIR$/modules/mymodule/mymodule.php" />
+        <option value="$PROJECT_DIR$/modules/mymodule/src/EventListener/LocaleListener.php" />
         <option value="$PROJECT_DIR$/modules/mymodule/config/services.yml" />
+        <option value="$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleConfigurationController.php" />
+        <option value="$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/position.html.twig" />
+        <option value="$PROJECT_DIR$/modules/mymodule/views/templates/admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/modules/mymodule/js/demo/index.js" />
       </list>
     </option>
   </component>
@@ -473,7 +799,23 @@
               <item name="demo_grid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Grid" type="462c0819:PsiDirectoryNode" />
+              <item name="Filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prestashop" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_grid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Grid" type="462c0819:PsiDirectoryNode" />
               <item name="Query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prestashop" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_grid" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
@@ -518,7 +860,7 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="mymodule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Grid" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
@@ -527,26 +869,6 @@
               <item name="mymodule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Grid" type="462c0819:PsiDirectoryNode" />
-              <item name="Definition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prestashop" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="mymodule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Grid" type="462c0819:PsiDirectoryNode" />
-              <item name="Definition" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prestashop" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="mymodule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Grid" type="462c0819:PsiDirectoryNode" />
-              <item name="Filters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
@@ -584,12 +906,12 @@
             <path>
               <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
               <item name="prestashop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prestashop" type="b2602c69:ProjectViewProjectNode" />
               <item name="prestashop" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -599,27 +921,31 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Mo&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/classes/module/Module.php&#10;mod&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/classes/module/Module.php&#10;AdminTranslationsController.php&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/controllers/admin/AdminTranslationsController.php&#10;Language&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/classes/Language.php" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="Admin/Common/Grid/grid_panel.html.twig&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/grid_panel.html.twig&#10;SortingExtension&#9;null&#9;null&#10;themes/default/js/bundle/pagination.js&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/admin072diftbpptadtgmjez/themes/default/js/bundle/pagination.js&#10;grid_panel.html.twig&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/modules/ps_linklist/views/PrestaShop/Admin/Common/Grid/grid_panel.html.twig&#10;Mo&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/classes/module/Module.php&#10;mod&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/classes/module/Module.php&#10;AdminTranslationsController.php&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/controllers/admin/AdminTranslationsController.php&#10;Language&#9;FILE&#9;file:///home/corentin_lartigue/corentin/projects/prestashop/classes/Language.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/etc/php/8.3/fpm/pool.d/www.conf" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Installation /LONGETJEROME-synctojoolan-1a6f41205b5a" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/mymodule/views/templates" />
-      <recent name="$PROJECT_DIR$/modules/mymodule/src/Controller" />
-      <recent name="$PROJECT_DIR$/modules/mymodule" />
-      <recent name="$PROJECT_DIR$/modules/mymodule/translations" />
-      <recent name="$PROJECT_DIR$/modules/mymodule/config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules/mymodule/src" />
       <recent name="$PROJECT_DIR$/modules/mymodule/translations" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/modules/mymodule/views/templates" />
       <recent name="$PROJECT_DIR$/modules/mymodule/views/templates/admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/mymodule/translations/fr-FR" />
+      <recent name="$PROJECT_DIR$/modules/mymodule/views/templates" />
+      <recent name="$PROJECT_DIR$/modules/mymodule/src/Controller" />
+      <recent name="$PROJECT_DIR$/modules/mymodule" />
+      <recent name="$PROJECT_DIR$/modules/mymodule/translations" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -656,7 +982,8 @@
       <workItem from="1738828223757" duration="3288000" />
       <workItem from="1738831545783" duration="20325000" />
       <workItem from="1738914668396" duration="10426000" />
-      <workItem from="1738927196203" duration="10474000" />
+      <workItem from="1738927196203" duration="10706000" />
+      <workItem from="1739174139871" duration="19586000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1738829739868</created>
@@ -669,7 +996,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131102000" />
+    <option name="totallyTimeSpent" value="150920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,10 +1009,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="37" width="1920" height="979" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.25747862" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.26976496" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.20352565" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -697,7 +1025,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295325" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106835" side_tool="true" weight="0.30672747" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49893162" visible="true" weight="0.30672747" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49893162" visible="true" weight="0.22690992" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -738,147 +1066,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Traduction mymodule" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/config_fr.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationTextDataConfiguration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="50" column="52" lean-forward="true" selection-start-line="50" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymoduleAdmin.fr-FR.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="41" lean-forward="true" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Tab.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6813">
-          <caret line="356" column="101" selection-start-line="356" selection-start-column="69" selection-end-line="356" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ps_wirepayment/controllers/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashactivity/views/templates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashactivity/views/templates/hook/dashboard_zone_one.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashgoals/controllers/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashgoals/views/templates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/config_fr.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="447" column="20" lean-forward="true" selection-start-line="447" selection-start-column="20" selection-end-line="447" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymodule.fr-FR.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/mymodule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/js/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/views/demo_grid.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret column="1623" selection-start-column="1623" selection-end-column="1623" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/js/demo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/.webpack/dev.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/.webpack/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/demo/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/views/templates/admin/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/views/templates/admin/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/demo_grid_screenshot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.inc.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mymodule/config/parameters.yaml" />
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -908,61 +1095,10 @@
     <entry file="file://$PROJECT_DIR$/modules/demo_grid/js/.webpack/dev.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/config/routes.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/views/templates/mymodule_grid.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret column="2585" selection-end-line="117" selection-end-column="138204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/src/Grid/Filters/ProductFilters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#900#973#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#51#108#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Core/Grid/Query/AbstractDoctrineQueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleConfigurationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#63#132#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/views/templates/admin/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -973,84 +1109,299 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/demo_grid/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/demo_grid/src/Controller/Admin/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-end-line="21" />
-          <folding>
-            <element signature="e#904#977#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="51" column="39" selection-start-line="51" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/demo_grid/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="95">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="65" selection-end-column="22" />
           <folding>
-            <element signature="e#90#174#0#PHP" expanded="true" />
+            <element signature="e#911#971#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php">
+    <entry file="file://$PROJECT_DIR$/modules/demo_grid/src/Grid/Filters/ProductFilters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3249">
-          <caret line="171" column="49" selection-start-line="171" selection-start-column="49" selection-end-line="171" selection-end-column="49" />
-          <folding>
-            <element signature="e#96#156#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/demo_grid/src/Grid/Query/ProductQueryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4921">
+          <caret line="283" column="19" selection-start-line="283" selection-start-column="19" selection-end-line="283" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Filters/ProductFilters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="323">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#84#168#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Query/ProductQueryBuilder.php">
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/views/js/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/.webpack/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#83#112#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="339">
+          <caret line="62" column="18" lean-forward="true" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/.webpack/dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="22" />
+        <state>
+          <caret selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/demo_grid/src/Grid/Query/ProductQueryBuilder.php">
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/.webpack/prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="23" column="9" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin072diftbpptadtgmjez/themes/default/js/bundle/pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="34" column="24" selection-end-line="258" />
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/views/templates/mymodule_grid.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret column="3856" selection-start-column="3847" selection-end-column="3856" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/views/templates/admin/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymodule.fr-FR.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="11" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Definition/Factory/ProductGridDefinitionFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <element signature="e#909#938#0#PHP" expanded="true" />
+            <element signature="e#96#156#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/EventListener/LocaleListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/mymodule/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" selection-start-line="40" selection-end-line="49" selection-end-column="48" />
+        <state relative-caret-position="498">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/config/routes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMyModule.en-US.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/translations/en-US/ModulesMymoduleAdmin.en-US.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="56" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleConfigurationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#63#132#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/translations/fr-FR/ModulesMymoduleAdmin.fr-FR.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="86" column="35" selection-start-line="86" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/mymodule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin072diftbpptadtgmjez/themes/new-theme/js/components/grid/extension/sorting-extension.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_linklist/views/PrestaShop/Admin/Common/Grid/grid_panel.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Blocks/Table/empty_row.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/position.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/html.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/grid.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrestaShopBundle/Resources/views/Admin/Common/Grid/grid_panel.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/views/templates/admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/js/demo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationTextFormDataProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationTextDataConfiguration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Form/MyModuleConfigurationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="30" selection-end-line="75" />
+          <folding>
+            <element signature="e#51#108#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Controller/Admin/MyModuleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#90#174#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mymodule/src/Grid/Query/ProductQueryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="268" column="5" selection-start-line="122" selection-start-column="3" selection-end-line="268" selection-end-column="5" />
+          <folding>
+            <element signature="e#83#112#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

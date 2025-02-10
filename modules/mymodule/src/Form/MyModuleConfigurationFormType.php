@@ -6,6 +6,7 @@ use PrestaShopBundle\Form\Admin\Type\TranslatorAwareType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use PrestaShopBundle\Form\Admin\Type\Material\MaterialMultipleChoiceTableType;
 use Symfony\Component\Form\FormBuilderInterface;
 
 
@@ -36,15 +37,39 @@ class MyModuleConfigurationFormType extends TranslatorAwareType
                 'expanded' => true,
                 'multiple' => false,
             ])
-
-            ->add('theme', ChoiceType::class, [
-                'label' => $this->trans('Select Theme', 'Modules.Mymodule.Admin'),
-                'choices' => [
-                    $this->trans('Dark Mode', 'Modules.Mymodule.Admin') => 'dark',
-                    $this->trans('Light Mode' , 'Modules.Mymodule.Admin')=> 'light',
-                ],
-                'expanded' => true,
-                'multiple' => false,
-            ]);
+            ->add(
+                'material_choice_multiple_choices_table',
+                MaterialMultipleChoiceTableType::class,
+                [
+                    'label' => $this->trans('Material choice multiple choices table type', 'Modules.DemoSymfonyForm.Admin'),
+                    'choices' => [
+                        $this->trans('Vertical choice 1', 'Modules.DemoSymfonyForm.Admin') => '1',
+                        $this->trans('Vertical choice 2', 'Modules.DemoSymfonyForm.Admin') => '2',
+                        $this->trans('Vertical choice 3', 'Modules.DemoSymfonyForm.Admin') => '3',
+                    ],
+                    'multiple_choices' => [
+                        [
+                            'name' => 'choice_1',
+                            'label' => $this->trans('Horizontal choice 1', 'Modules.DemoSymfonyForm.Admin'),
+                            'multiple' => true,
+                            /* You need choices array for the second time to be able to choose which horizontal choices are available for this vertical choice  */
+                            'choices' => [
+                                $this->trans('Vertical choice 1', 'Modules.DemoSymfonyForm.Admin') => '1',
+                                $this->trans('Vertical choice 2', 'Modules.DemoSymfonyForm.Admin') => '2',
+                            ],
+                        ],
+                        [
+                            'name' => 'choice_2',
+                            'label' => $this->trans('Horizontal choice 2', 'Modules.DemoSymfonyForm.Admin'),
+                            'multiple' => true,
+                            'choices' => [
+                                $this->trans('Vertical choice 1', 'Modules.DemoSymfonyForm.Admin') => '1',
+                                $this->trans('Vertical choice 2', 'Modules.DemoSymfonyForm.Admin') => '2',
+                                $this->trans('Vertical choice 3', 'Modules.DemoSymfonyForm.Admin') => '3',
+                            ],
+                        ],
+                    ],
+                ]
+            );
     }
 }

@@ -18,7 +18,7 @@ my_module_index:
 
 
 my_module_search:
-  path: /mymodule/home/search
+  path: /mymodule/home
   methods:  [POST]
   defaults:
     _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::searchAction'

@@ -129,7 +129,7 @@ class ProductQueryBuilder extends AbstractDoctrineQueryBuilder
                 'od',
                 $this->dbPrefix . 'product',
                 'p',
-                'od.`id_product` = p.`id_product` AND ps.`id_shop` = :id_shop'
+                'od.`product_id` = p.`id_product` '
             )
             ->innerJoin(
                 'p',

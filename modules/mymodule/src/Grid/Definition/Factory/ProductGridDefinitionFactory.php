@@ -55,10 +55,10 @@ class ProductGridDefinitionFactory extends AbstractGridDefinitionFactory
                     ])
             )
             ->add(
-                (new DataColumn('product_name'))
+                (new DataColumn('name'))
                     ->setName($this->trans('Name', [], 'Modules.Mymodule'))
                     ->setOptions([
-                        'field' => 'product_name',
+                        'field' => 'name',
                     ])
             )
             ->add(

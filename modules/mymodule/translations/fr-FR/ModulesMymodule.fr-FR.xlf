@@ -2,19 +2,59 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin072diftbpptadtgmjez" source-language="en-US" target-language="fr-FR" datatype="plaintext">
     <body>
-      <trans-unit id="5c1d9b8006e898984ef9ce072479302c">
-        <source>My Home Module</source>
-        <target>Mon module d'accueil</target>
+      <trans-unit id="92d149349d093346a33cd446961b4e2d">
+        <source>The welcome to my module with the table of product orders</source>
+        <target>L'accueil dans mon module avec le tableau des commandes de produits</target>
         <note>Line: </note>
       </trans-unit>
-      <trans-unit id="518edf9a9169440ccee1acafbbea37b3">
-        <source>Welcome to my module page!</source>
-        <target>Bienvenue sur la page de mon module!</target>
+      <trans-unit id="6a061313d22e51e0f25b7cd4dc065233">
+        <source>Max</source>
+        <target>Max</target>
         <note>Line: </note>
       </trans-unit>
-      <trans-unit id="712c5be2cd410428cf697046836bfc40">
-        <source>This is a custom page from my module.</source>
-        <target>Ceci est une page personnalisée de mon module.</target>
+      <trans-unit id="78d811e98514cd165dda532286610fd2">
+        <source>Min</source>
+        <target>Min</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="06df33001c1d7187fdd81ea1f5b277aa">
+        <source>Actions</source>
+        <target>Actions</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4d3d769b812b6faa6b76e1a8abaece2d">
+        <source>Active</source>
+        <target>Active</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca">
+        <source>Reference</source>
+        <target>Description</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3601146c4e948c32b6424d2c0a7f0118">
+        <source>Price</source>
+        <target>Prix</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="49ee3087348e8d44e1feda1917443987">
+        <source>Name</source>
+        <target>Nom</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="83f550d5d9dea60ebd168c3b281f9bd4">
+        <source>N°product</source>
+        <target>N°produit</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5af7a82cca0a5bf34c3bf0894a019cb5">
+        <source>N°order</source>
+        <target>N°commande</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e1e543f99b0a98712f32bc26ccbf6f25">
+        <source>Products of orders</source>
+        <target>Produits des commandes</target>
         <note>Line: </note>
       </trans-unit>
     </body>

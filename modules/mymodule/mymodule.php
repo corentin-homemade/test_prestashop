@@ -30,8 +30,7 @@ class MyModule extends Module
 
     public function getContent()
     {
-        $language = Tools::getValue('lang', Configuration::get('MYMODULE_LANGUAGE'));
-        $route = $this->get('router')->generate('my_module_configuration', ['lang' => $language]);
+        $route = $this->get('router')->generate('my_module_configuration');
         Tools::redirectAdmin($route);
     }
 
