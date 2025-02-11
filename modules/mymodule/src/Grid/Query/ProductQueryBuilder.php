@@ -81,7 +81,9 @@ class ProductQueryBuilder extends AbstractDoctrineQueryBuilder
     {
         $qb = $this->getQueryBuilder($searchCriteria->getFilters());
         $qb
-            ->select('od.id_order,od.product_quantity_in_stock')
+            ->select('CONCAT(c.firstname," - ",c.lastname) AS name_customer,c.id_customer')
+            ->addSelect('pr.review_id,pr.rating_value,pr.review_text')
+            ->addSelect('od.id_order,od.product_quantity_in_stock')
             ->addSelect('p.`id_product`, p.`reference`')
             ->addSelect('ps.`price` AS `price_tax_excluded`, ps.`active`')
             ->addSelect('pl.`name`, pl.`link_rewrite`')
@@ -124,12 +126,30 @@ class ProductQueryBuilder extends AbstractDoctrineQueryBuilder
     {
         $qb = $this->connection
             ->createQueryBuilder()
-            ->from($this->dbPrefix . 'order_detail', 'od')
+            ->from($this->dbPrefix . 'customer', 'c')
+            ->innerJoin(
+                'c',
+                $this->dbPrefix . 'orders',
+                'o',
+                'o.`id_customer` = c.`id_customer` '
+            )
+            ->innerJoin(
+                'o',
+                $this->dbPrefix . 'order_detail',
+                'od',
+                'od.`id_order` = o.`id_order` '
+            )
             ->innerJoin(
                 'od',
                 $this->dbPrefix . 'product',
                 'p',
                 'od.`product_id` = p.`id_product` '
+            )
+            ->leftJoin(
+                'od',
+                $this->dbPrefix . 'product_reviews',
+                'pr',
+                'od.`product_id` = pr.`product_id` AND od.`id_order` = pr.`order_id`'
             )
             ->innerJoin(
                 'p',
@@ -200,6 +220,12 @@ class ProductQueryBuilder extends AbstractDoctrineQueryBuilder
                 'p.`id_product`',
                 SqlFilters::WHERE_STRICT
             );
+        $sqlFilters
+            ->addFilter(
+                'rating_value',
+                'pr.`rating_value`',
+                SqlFilters::WHERE_STRICT
+            );
         if (version_compare(_PS_VERSION_, '8.0', '>=')) {
             $sqlFilters
                 ->addFilter(
@@ -237,12 +263,27 @@ class ProductQueryBuilder extends AbstractDoctrineQueryBuilder
                 continue;
             }
 
+
+            if ('rating_value' === $filterName) {
+                $qb->andWhere('pr.`rating_value` = :rating_value');
+                $qb->setParameter('rating_value', $filter);
+                continue;
+            }
+
             if ('name' === $filterName) {
                 $qb->andWhere('pl.`name` LIKE :name');
                 $qb->setParameter('name', '%' . $filter . '%');
 
                 continue;
             }
+
+            if ('name_customer' === $filterName) {
+                $qb->andWhere('CONCAT(c.firstname," - ",c.lastname) LIKE :customer');
+                $qb->setParameter('customer', '%' . $filter . '%');
+
+                continue;
+            }
+
 
             if ('reference' === $filterName) {
                 $qb->andWhere('p.`reference` LIKE :reference');

@@ -1,7 +1,13 @@
 services:
-
   _defaults:
     public: true
+
+  prestashop.module.mymodule.controller.my_module_controller:
+    class: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController'
+    public: true
+
+
+
 
   prestashop.module.mymodule.form.type.configuration:
     class: 'PrestaShop\Module\MyModule\Form\MyModuleConfigurationFormType'

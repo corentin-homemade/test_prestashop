@@ -13,6 +13,9 @@ use PrestaShop\PrestaShop\Core\Grid\Filter\FilterCollection;
 use PrestaShopBundle\Form\Admin\Type\NumberMinMaxFilterType;
 use PrestaShopBundle\Form\Admin\Type\SearchAndResetType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use PrestaShop\PrestaShop\Core\Grid\Action\Row\Type\LinkRowAction;
+use PrestaShop\PrestaShop\Core\Grid\Action\Row\Type\SubmitRowAction;
+use PrestaShop\PrestaShop\Core\Grid\Action\Row\RowActionCollection;
 
 class ProductGridDefinitionFactory extends AbstractGridDefinitionFactory
 {
@@ -76,15 +79,67 @@ class ProductGridDefinitionFactory extends AbstractGridDefinitionFactory
                     ])
             )
             ->add(
-                (new DataColumn('active'))
-                    ->setName($this->trans('Active', [], 'Modules.Mymodule'))
+                (new DataColumn('name_customer'))
+                    ->setName($this->trans('Customer', [], 'Modules.Mymodule'))
                     ->setOptions([
-                        'field' => 'active',
+                        'field' => 'name_customer',
                     ])
+            )
+            ->add(
+                (new DataColumn('review_id'))
+                    ->setOptions([
+                        'field' => 'review_id',
+                    ])
+            )
+            ->add(
+                (new DataColumn('review_text'))
+                    ->setName($this->trans('Review', [], 'Modules.Mymodule'))
+                    ->setOptions([
+                        'field' => 'review_text',
+                    ])
+            )
+            ->add(
+                (new DataColumn('rating_value'))
+                    ->setName($this->trans('Rating', [], 'Modules.Mymodule'))
+                    ->setOptions([
+                        'field' => 'rating_value',
+                    ])
+            )
+            ->add(
+            (new DataColumn('active'))
+                ->setName($this->trans('Active', [], 'Modules.Mymodule'))
+                ->setOptions([
+                    'field' => 'active',
+                ])
             )
             ->add(
                 (new ActionColumn('actions'))
                     ->setName($this->trans('Actions', [], 'Modules.Mymodule'))
+                    ->setOptions([
+                        'actions' => (new RowActionCollection())
+                            ->add(
+                                (new LinkRowAction('edit'))
+                                    ->setName($this->trans('Edit', [], 'Modules.Mymodule.Admin'))
+                                    ->setIcon('edit')
+                                    ->setOptions([
+                                        'route' => 'mymodule_reviews_update',
+                                        'route_param_name' => 'review_id',
+                                        'route_param_field' => 'review_id',
+                                    ])
+                            )
+                            ->add(
+                                (new SubmitRowAction('delete'))
+                                    ->setName($this->trans('Delete', [], 'Modules.Mymodule.Admin'))
+                                    ->setIcon('delete')
+                                    ->setOptions([
+                                        'route' => 'mymodule_reviews_delete',
+                                        'route_param_name' => 'review_id',
+                                        'route_param_field' => 'review_id',
+                                        'confirm_message' => $this->trans('Are you sure you want to delete this review?', [], 'Modules.Mymodule.Admin'),
+                                        'method' => 'DELETE'
+                                    ])
+                            ),
+                    ])
             );
     }
 
@@ -154,6 +209,26 @@ class ProductGridDefinitionFactory extends AbstractGridDefinitionFactory
                         ],
                     ])
                     ->setAssociatedColumn('reference')
+            )
+            ->add(
+                (new Filter('name_customer', TextType::class))
+                    ->setTypeOptions([
+                        'required' => false,
+                        'attr' => [
+                            'placeholder' => $this->trans('Customer', [], 'Modules.Mymodule'),
+                        ],
+                    ])
+                    ->setAssociatedColumn('name_customer')
+            )
+            ->add(
+                (new Filter('rating_value', TextType::class))
+                    ->setTypeOptions([
+                        'required' => false,
+                        'attr' => [
+                            'placeholder' => $this->trans('Rating', [], 'Modules.Mymodule'),
+                        ],
+                    ])
+                    ->setAssociatedColumn('rating_value')
             )
             ->add(
                 (new Filter('active', TextType::class))

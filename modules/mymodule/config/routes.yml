@@ -22,3 +22,22 @@ my_module_search:
   methods:  [POST]
   defaults:
     _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::searchAction'
+
+
+
+mymodule_reviews_update:
+  path: /mymodule/reviews
+  methods: [GET]
+  defaults:
+    -controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::updateReviews'
+  requirements:
+    _locale: en|fr|es
+
+mymodule_reviews_delete:
+  path: /mymodule/reviews/{review_id}
+  methods: [DELETE]
+  defaults:
+    _controller: 'PrestaShop\Module\MyModule\Controller\Admin\MyModuleController::deleteReviews'
+  requirements:
+    _locale: en|fr|es
+    id_review: \d+

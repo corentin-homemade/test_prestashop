@@ -57,6 +57,16 @@
         <target>Products of orders</target>
         <note>Line: </note>
       </trans-unit>
+      <trans-unit id="ce26601dac0dea138b7295f02b7620a7">
+        <source>Client</source>
+        <target>Customer</target>
+        <note>Line: </note>
+     </trans-unit>
+      <trans-unit id="7bde11b00c374a1da26f56c61d26cace">
+        <source>Donnez votre avis sur un produit !</source>
+        <target>Give your opinion on a product !</target>
+        <note>Line: </note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
